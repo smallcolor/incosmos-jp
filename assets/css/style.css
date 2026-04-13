@@ -78,7 +78,11 @@ h3 {
   grid-template-columns: repeat(var(--grid-columns), 1fr);
   gap: var(--grid-gutter);
 }
-.section { padding: clamp(4rem, 8vw, 8rem) 0; }
+.section {
+  padding: clamp(4rem, 8vw, 8rem) var(--page-gutter);
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
 .section + .section { border-top: 1px solid var(--divider); }
 
 /* 6. Navigation */
@@ -170,7 +174,12 @@ h3 {
   z-index: 2;
   max-width: 60rem;
 }
-.page-hero { padding-top: clamp(8rem, 16vw, 14rem); }
+.page-hero {
+  padding-top: clamp(8rem, 16vw, 14rem);
+  padding-inline: var(--page-gutter);
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
 
 /* 8. Cards */
 .card {
@@ -312,7 +321,9 @@ textarea.form-field { resize: vertical; }
 /* 14. Footer */
 .footer {
   border-top: 1px solid var(--divider);
-  padding: clamp(3rem, 6vw, 6rem) 0;
+  padding: clamp(3rem, 6vw, 6rem) var(--page-gutter);
+  max-width: var(--max-width);
+  margin-inline: auto;
 }
 .footer-grid {
   display: grid;

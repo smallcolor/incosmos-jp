@@ -277,6 +277,24 @@ h3 {
 .form-field::placeholder { color: var(--text-muted); }
 textarea.form-field { resize: vertical; }
 
+/* Contact form layout */
+.contact-form-wrap {
+  max-width: 40rem;
+}
+.contact-form-wrap .form-field {
+  margin-bottom: 1.25rem;
+}
+.contact-form-wrap .cf-turnstile {
+  margin-bottom: 1.5rem;
+}
+.contact-form-wrap .btn-pill-solid {
+  margin-top: 0.5rem;
+}
+.contact-form-wrap .text-muted {
+  margin-top: 2rem;
+  font-size: 0.875em;
+}
+
 /* 13. Legal */
 .legal-content article {
   padding: 2rem 0;

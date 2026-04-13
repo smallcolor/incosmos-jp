@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>お問い合わせ — InCosmos · 在宇</title>
+  <meta name="description" content="在宇株式会社（ZAIU Inc.）へのお問い合わせ。お気軽にご連絡ください。">
+
+  <!-- OG -->
+  <meta property="og:title" content="お問い合わせ — InCosmos · 在宇">
+  <meta property="og:description" content="在宇株式会社（ZAIU Inc.）へのお問い合わせ。お気軽にご連絡ください。">
+  <meta property="og:image" content="../assets/images/og-image.svg">
+  <meta property="og:url" content="https://incosmos.jp/contact/">
+  <meta property="og:type" content="website">
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="x-default" href="https://incosmos.jp/contact/">
+  <link rel="alternate" hreflang="ja" href="https://incosmos.jp/contact/">
+  <link rel="alternate" hreflang="en" href="https://incosmos.jp/en/contact/">
+
+  <!-- Font -->
+  <link rel="preload" href="../assets/fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- Turnstile -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="/"><img class="nav-logo" src="../assets/images/logo.svg" alt="InCosmos"></a>
+    <ul class="nav-links">
+      <li><a href="/">ホーム</a></li>
+      <li><a href="/brands/">ブランド</a></li>
+      <li><a href="/solutions/">ソリューション</a></li>
+      <li><a href="/about/">会社概要</a></li>
+      <li><a href="/careers/">採用情報</a></li>
+      <li><a href="/contact/" class="active">お問い合わせ</a></li>
+    </ul>
+    <a class="nav-lang" href="/en/contact/">EN</a>
+    <button class="nav-burger" aria-label="メニュー" aria-expanded="false">☰</button>
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="/brands/">ブランド</a></li>
+        <li><a href="/solutions/">ソリューション</a></li>
+        <li><a href="/about/">会社概要</a></li>
+        <li><a href="/careers/">採用情報</a></li>
+        <li><a href="/contact/" class="active">お問い合わせ</a></li>
+        <li><a class="nav-lang" href="/en/contact/">EN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1 data-reveal-title>Get in touch</h1>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section" data-reveal>
+    <div class="contact-form-wrap">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+        <input type="hidden" name="subject" value="incosmos.jp お問い合わせ">
+        <input class="form-field" type="text" name="name" placeholder="お名前" required>
+        <input class="form-field" type="email" name="email" placeholder="メールアドレス" required>
+        <input class="form-field" type="text" name="subject_line" placeholder="件名" required>
+        <textarea class="form-field" name="message" placeholder="メッセージ" rows="6" required></textarea>
+        <div class="cf-turnstile" data-sitekey="YOUR_SITE_KEY"></div>
+        <button type="submit" class="btn-pill-solid">送信</button>
+      </form>
+      <p class="text-muted">フォームが利用できない場合: <a href="mailto:hello@zaiu.jp">hello@zaiu.jp</a></p>
+    </div>
+  </section>
+
+  <!-- Company Info -->
+  <section class="section" data-reveal>
+    <h2 data-reveal-title>会社情報</h2>
+    <table class="info-table">
+      <tbody>
+        <tr><th>メール</th><td><a href="mailto:hello@zaiu.jp">hello@zaiu.jp</a></td></tr>
+        <tr><th>所在地</th><td>〒536-0014 大阪府大阪市城東区鴫野東2丁目8-23 MixPace 101</td></tr>
+        <tr><th>商号</th><td>在宇株式会社（ZAIU Inc.）</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <p><strong>InCosmos · 在宇</strong></p>
+        <p>AIアート・画像生成・リサーチの3事業を展開する大阪拠点のスタジオ。</p>
+        <p>大阪府大阪市城東区鴫野東</p>
+      </div>
+      <div>
+        <p><strong>ページ</strong></p>
+        <ul>
+          <li><a href="/">ホーム</a></li>
+          <li><a href="/brands/">ブランド</a></li>
+          <li><a href="/solutions/">ソリューション</a></li>
+          <li><a href="/about/">会社概要</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="/careers/">採用情報</a></li>
+          <li><a href="/contact/">お問い合わせ</a></li>
+          <li><a href="/terms/">利用規約</a></li>
+          <li><a href="/privacy/">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div>
+        <p><strong>SNS</strong></p>
+        <ul>
+          <li><a href="https://www.instagram.com/incosmos.art/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+        <ul>
+          <li><a href="/legal/">特定商取引法に基づく表記</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 在宇株式会社（ZAIU Inc.）All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/vendor/gsap.min.js"></script>
+  <script src="../assets/js/vendor/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/vendor/SplitType.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

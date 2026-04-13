@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — InCosmos · ZAIU</title>
+  <meta name="description" content="Get in touch with ZAIU Inc. (在宇株式会社). We'd love to hear from you.">
+
+  <!-- OG -->
+  <meta property="og:title" content="Contact — InCosmos · ZAIU">
+  <meta property="og:description" content="Get in touch with ZAIU Inc. (在宇株式会社). We'd love to hear from you.">
+  <meta property="og:image" content="../../assets/images/og-image.svg">
+  <meta property="og:url" content="https://incosmos.jp/en/contact/">
+  <meta property="og:type" content="website">
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="x-default" href="https://incosmos.jp/contact/">
+  <link rel="alternate" hreflang="ja" href="https://incosmos.jp/contact/">
+  <link rel="alternate" hreflang="en" href="https://incosmos.jp/en/contact/">
+
+  <!-- Font -->
+  <link rel="preload" href="../../assets/fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+
+  <!-- Turnstile -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="/en/"><img class="nav-logo" src="../../assets/images/logo.svg" alt="InCosmos"></a>
+    <ul class="nav-links">
+      <li><a href="/en/">Home</a></li>
+      <li><a href="/en/brands/">Brands</a></li>
+      <li><a href="/en/solutions/">Solutions</a></li>
+      <li><a href="/en/about/">About</a></li>
+      <li><a href="/en/careers/">Careers</a></li>
+      <li><a href="/en/contact/" class="active">Contact</a></li>
+    </ul>
+    <a class="nav-lang" href="/contact/">JP</a>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false">☰</button>
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="/en/">Home</a></li>
+        <li><a href="/en/brands/">Brands</a></li>
+        <li><a href="/en/solutions/">Solutions</a></li>
+        <li><a href="/en/about/">About</a></li>
+        <li><a href="/en/careers/">Careers</a></li>
+        <li><a href="/en/contact/" class="active">Contact</a></li>
+        <li><a class="nav-lang" href="/contact/">JP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1 data-reveal-title>Get in touch</h1>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section" data-reveal>
+    <div class="contact-form-wrap">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+        <input type="hidden" name="subject" value="incosmos.jp Contact (EN)">
+        <input class="form-field" type="text" name="name" placeholder="Name" required>
+        <input class="form-field" type="email" name="email" placeholder="Email" required>
+        <input class="form-field" type="text" name="subject_line" placeholder="Subject" required>
+        <textarea class="form-field" name="message" placeholder="Message" rows="6" required></textarea>
+        <div class="cf-turnstile" data-sitekey="YOUR_SITE_KEY"></div>
+        <button type="submit" class="btn-pill-solid">Submit</button>
+      </form>
+      <p class="text-muted">If the form is unavailable: <a href="mailto:hello@zaiu.jp">hello@zaiu.jp</a></p>
+    </div>
+  </section>
+
+  <!-- Company Info -->
+  <section class="section" data-reveal>
+    <h2 data-reveal-title>Company Information</h2>
+    <table class="info-table">
+      <tbody>
+        <tr><th>Email</th><td><a href="mailto:hello@zaiu.jp">hello@zaiu.jp</a></td></tr>
+        <tr><th>Address</th><td>MixPace 101, 2-8-23 Shiginohigashi, Joto-ku, Osaka 536-0014, Japan</td></tr>
+        <tr><th>Company name</th><td>ZAIU Inc. (在宇株式会社)</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <p><strong>InCosmos · ZAIU</strong></p>
+        <p>An Osaka-based studio operating three businesses: AI art, image generation, and research.</p>
+        <p>Joto-ku, Osaka, Japan</p>
+      </div>
+      <div>
+        <p><strong>Pages</strong></p>
+        <ul>
+          <li><a href="/en/">Home</a></li>
+          <li><a href="/en/brands/">Brands</a></li>
+          <li><a href="/en/solutions/">Solutions</a></li>
+          <li><a href="/en/about/">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="/en/careers/">Careers</a></li>
+          <li><a href="/en/contact/">Contact</a></li>
+          <li><a href="/en/terms/">Terms of Use</a></li>
+          <li><a href="/en/privacy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <p><strong>Social</strong></p>
+        <ul>
+          <li><a href="https://www.instagram.com/incosmos.art/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+        <ul>
+          <li><a href="/en/legal/">Legal Notice</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 ZAIU Inc. (在宇株式会社) All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../assets/js/vendor/gsap.min.js"></script>
+  <script src="../../assets/js/vendor/ScrollTrigger.min.js"></script>
+  <script src="../../assets/js/vendor/SplitType.min.js"></script>
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>
